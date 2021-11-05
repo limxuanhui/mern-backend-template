@@ -38,4 +38,4 @@ UserSchema.methods = {
   Add a third parameter as the collection name to be used in MongoDB.
   e.g. mongoose.model("User", UserSchema, "users") 
 */
-module.exports = mongoose.model("User", UserSchema, "userstemplate");
+module.exports = mongoose.model("User", UserSchema, "users");
